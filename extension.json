@@ -1,0 +1,100 @@
+{
+  "Extension StreamPulse": [
+   {
+      "name": "Xr3ed",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/xr3ed/xr3ed-Repo/builds/xr3ed-jsdelivr.json"
+    },
+    {
+      "name": "Cloudstream provider",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/recloudstream/extensions/master/repo.json"
+    },
+    {
+      "name": "Megix Repo",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/CS.json"
+    },
+    {
+      "name": "3rabi",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/Abodabodd/re-3arabi/refs/heads/main/repo"
+    },
+    {
+      "name": "Indostream Repo",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/TeKuma25/IndoStream/builds/repo.json"
+    },
+    {
+      "name": "CloudX Repository",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/Asm0d3usX/CloudX/builds/repo.json"
+    },
+    {
+      "name": "doGior's Had Enough",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/doGior/doGiorsHadEnough/refs/heads/builds/repo.json"
+    },
+    {
+      "name": "Diegon Repository/italialnstreaming",
+      "url": "cloudstreamrepo://pastebin.com/raw/qndZtL6D"
+    },
+    {
+      "name": "CS-Karma",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/Kraptor123/cs-Karma/refs/heads/master/repo.json"
+    },
+    {
+      "name": "Ukrainian Providers",
+      "url": "https://codeberg.org/CakesTwix/cloudstream-extensions-uk/raw/branch/master/repo.json"
+    },
+    {
+      "name": "Italian Providers Repository",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/Gian-Fr/ItalianProvider/builds/repo.json"
+    },
+    {
+      "name": "Reflex Repo",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/Reflex755/ReflexRepo/refs/heads/builds/repo.json"
+    },
+    {
+      "name": "Redowan's BDIX Repository",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/redowan99/Redowan-CloudStream/master/repo.json"
+    },
+    {
+      "name": "German Provider",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/Bnyro/GermanProviders/refs/heads/master/repo.json"
+    },
+    {
+      "name": "Luna712's Cloudstream Extension Repository",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/Luna712/Luna712-CloudStream-Extensions/28885d17ceb7f24782b732b6056085c14c1fd027/repo.json"
+    },
+    {
+      "name": "CuxPlug",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/ycngmn/CuxPlug/refs/heads/main/repo.json"
+    },
+    {
+      "name": "Dizipal & TabiiSpor | Sarapcanagii (Turkish)",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/sarapcanagii/Pitipitii/master/repo.json"
+    },
+    {
+      "name": "Lawlietrepo (Portuguese)",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/lawlietbr/lietrepo/refs/heads/main/builds/repo.json"
+    },
+    {
+      "name": "King",
+      "url": "cloudstreamrepo://pastebin.com/raw/Cd2g2tfz"
+    },
+    {
+      "name": "Phisher Repo",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/repo.json"
+    },
+    {
+      "name": "Turkish Providers Repo | Kraptor123",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/Kraptor123/cs-kraptor/refs/heads/master/repo.json"
+    },
+    {
+      "name": "Saimuel Repo (Portuguese)",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/saimuelbr/saimuelrepo/refs/heads/main/builds/repo.json"
+    },
+    {
+      "name": "Cnc Verse Repository",
+      "url": "cloudstreamrepo://raw.githubusercontent.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/refs/heads/builds/CNC.json"
+    },
+    {
+      "name": "Cloudstream Vietnamese",
+      "url": "cloudstreamrepo://gitlab.com/tearrs/cloudstream-vietnamese/-/raw/main/repo.json"
+    }
+  ]
+}
