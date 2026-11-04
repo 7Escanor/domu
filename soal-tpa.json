@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "judul": "Simulasi Tes Potensi Akademik (TPA) – Staf Analis Pengawal Energi",
+    "total_soal": 30,
+    "durasi_menit": 45,
+    "kategori": [
+      {
+        "kode": "TPV",
+        "nama": "Kemampuan Verbal",
+        "jumlah": 10,
+        "bobot_benar": 4,
+        "bobot_salah": 0
+      },
+      {
+        "kode": "TPN",
+        "nama": "Kemampuan Numerik",
+        "jumlah": 10,
+        "bobot_benar": 4,
+        "bobot_salah": 0
+      },
+      {
+        "kode": "TPL",
+        "nama": "Penalaran Logika",
+        "jumlah": 10,
+        "bobot_benar": 4,
+        "bobot_salah": 0
+      }
+    ]
+  },
+  "soal": [
+    {
+      "id": 1,
+      "kategori": "TPV",
+      "nomor": 1,
+      "pertanyaan": "Sinonim kata 'AKUMULASI' adalah...",
+      "pilihan": {
+        "A": "Penimbunan",
+        "B": "Penyebaran",
+        "C": "Pengurangan",
+        "D": "Pemborosan",
+        "E": "Penghapusan"
+      },
+      "jawaban": "A",
+      "pembahasan": "Akumulasi berarti pengumpulan atau penumpukan sedikit demi sedikit sehingga bertambah banyak. Padanan terdekatnya adalah penimbunan."
+    },
+    {
+      "id": 2,
+      "kategori": "TPV",
+      "nomor": 2,
+      "pertanyaan": "Sinonim kata 'KOMPREHENSIF' adalah...",
+      "pilihan": {
+        "A": "Singkat",
+        "B": "Dangkal",
+        "C": "Menyeluruh",
+        "D": "Sebagian",
+        "E": "Khusus"
+      },
+      "jawaban": "C",
+      "pembahasan": "Komprehensif berarti mencakup banyak hal secara luas dan lengkap. Sinonimnya adalah menyeluruh."
+    },
+    {
+      "id": 3,
+      "kategori": "TPV",
+      "nomor": 3,
+      "pertanyaan": "Sinonim kata 'SIGNIFIKAN' adalah...",
+      "pilihan": {
+        "A": "Sepele",
+        "B": "Bermakna (berarti)",
+        "C": "Berlebihan",
+        "D": "Tersembunyi",
+        "E": "Sementara"
+      },
+      "jawaban": "B",
+      "pembahasan": "Signifikan berarti penting atau berarti sehingga berpengaruh nyata. Lawan katanya adalah tidak berarti atau sepele."
+    },
+    {
+      "id": 4,
+      "kategori": "TPV",
+      "nomor": 4,
+      "pertanyaan": "Antonim kata 'EKSKLUSIF' adalah...",
+      "pilihan": {
+        "A": "Istimewa",
+        "B": "Terbatas",
+        "C": "Khusus",
+        "D": "Inklusif",
+        "E": "Mewah"
+      },
+      "jawaban": "D",
+      "pembahasan": "Eksklusif berarti terbatas atau hanya untuk kalangan tertentu. Antonimnya adalah inklusif, yaitu terbuka dan mencakup semua pihak."
+    },
+    {
+      "id": 5,
+      "kategori": "TPV",
+      "nomor": 5,
+      "pertanyaan": "Antonim kata 'FLUKTUATIF' adalah...",
+      "pilihan": {
+        "A": "Stabil",
+        "B": "Naik turun",
+        "C": "Tidak menentu",
+        "D": "Bergejolak",
+        "E": "Berubah-ubah"
+      },
+      "jawaban": "A",
+      "pembahasan": "Fluktuatif berarti naik turun atau berubah-ubah. Lawannya adalah stabil atau tetap."
+    },
+    {
+      "id": 6,
+      "kategori": "TPV",
+      "nomor": 6,
+      "pertanyaan": "Antonim kata 'HOMOGEN' adalah...",
+      "pilihan": {
+        "A": "Murni",
+        "B": "Seragam",
+        "C": "Sejenis",
+        "D": "Heterogen",
+        "E": "Sama"
+      },
+      "jawaban": "D",
+      "pembahasan": "Homogen berarti sejenis atau seragam, sedangkan heterogen berarti beragam atau berbeda jenis."
+    },
+    {
+      "id": 7,
+      "kategori": "TPV",
+      "nomor": 7,
+      "pertanyaan": "KOMPAS : ARAH = MANOMETER : ...",
+      "pilihan": {
+        "A": "Kecepatan",
+        "B": "Berat",
+        "C": "Volume",
+        "D": "Suhu",
+        "E": "Tekanan"
+      },
+      "jawaban": "E",
+      "pembahasan": "Kompas adalah alat ukur arah, sedangkan manometer adalah alat ukur tekanan. Hubungannya: alat dengan besaran yang diukurnya."
+    },
+    {
+      "id": 8,
+      "kategori": "TPV",
+      "nomor": 8,
+      "pertanyaan": "GURU : MENGAJAR = PENJAHIT : ...",
+      "pilihan": {
+        "A": "Toko",
+        "B": "Kain",
+        "C": "Baju",
+        "D": "Jarum",
+        "E": "Menjahit"
+      },
+      "jawaban": "E",
+      "pembahasan": "Hubungannya adalah profesi dengan kegiatan utamanya. Guru bertugas mengajar, penjahit bertugas menjahit."
+    },
+    {
+      "id": 9,
+      "kategori": "TPV",
+      "nomor": 9,
+      "pertanyaan": "Kata yang penulisannya baku adalah...",
+      "pilihan": {
+        "A": "Aktifitas",
+        "B": "Analisis",
+        "C": "Resiko",
+        "D": "Praktek",
+        "E": "Kwalitas"
+      },
+      "jawaban": "B",
+      "pembahasan": "Bentuk baku menurut KBBI: analisis, aktivitas (bukan aktifitas), risiko (bukan resiko), kualitas (bukan kwalitas), dan praktik (bukan praktek)."
+    },
+    {
+      "id": 10,
+      "kategori": "TPV",
+      "nomor": 10,
+      "pertanyaan": "Bacalah teks berikut.\n\nTransisi energi tidak berarti menghentikan penggunaan bahan bakar fosil secara mendadak. Selama permintaan energi masih tumbuh dan teknologi energi terbarukan belum mampu menopang beban dasar secara stabil, pasokan energi fosil tetap diperlukan sambil bauran energi bersih diperbesar secara bertahap.\n\nGagasan utama teks tersebut adalah...",
+      "pilihan": {
+        "A": "Energi fosil harus dihentikan seluruhnya secepat mungkin",
+        "B": "Teknologi energi bersih belum pernah diuji",
+        "C": "Permintaan energi dunia akan segera menurun",
+        "D": "Transisi energi dilakukan bertahap karena energi fosil masih dibutuhkan selama energi bersih belum mampu menopang kebutuhan",
+        "E": "Energi terbarukan tidak akan pernah dapat menggantikan energi fosil"
+      },
+      "jawaban": "D",
+      "pembahasan": "Teks menekankan bahwa transisi energi berlangsung bertahap: fosil masih diperlukan selama permintaan tumbuh dan energi terbarukan belum stabil untuk beban dasar, sambil porsi energi bersih terus diperbesar. Pilihan lain bertentangan atau tidak disebut dalam teks."
+    },
+    {
+      "id": 11,
+      "kategori": "TPN",
+      "nomor": 1,
+      "pertanyaan": "Deret: 3, 6, 12, 24, ... Angka berikutnya adalah...",
+      "pilihan": {
+        "A": "36",
+        "B": "48",
+        "C": "42",
+        "D": "60",
+        "E": "45"
+      },
+      "jawaban": "B",
+      "pembahasan": "Setiap suku dikalikan 2: 3 × 2 = 6; 6 × 2 = 12; 12 × 2 = 24; 24 × 2 = 48."
+    },
+    {
+      "id": 12,
+      "kategori": "TPN",
+      "nomor": 2,
+      "pertanyaan": "Deret: 2, 3, 5, 8, 12, 17, ... Angka berikutnya adalah...",
+      "pilihan": {
+        "A": "21",
+        "B": "22",
+        "C": "23",
+        "D": "24",
+        "E": "25"
+      },
+      "jawaban": "C",
+      "pembahasan": "Selisih antarsuku bertambah 1 setiap langkah: +1, +2, +3, +4, +5, maka selisih berikutnya +6. Suku berikutnya = 17 + 6 = 23."
+    },
+    {
+      "id": 13,
+      "kategori": "TPN",
+      "nomor": 3,
+      "pertanyaan": "Deret: 2, 6, 12, 20, 30, ... Angka berikutnya adalah...",
+      "pilihan": {
+        "A": "44",
+        "B": "36",
+        "C": "42",
+        "D": "48",
+        "E": "40"
+      },
+      "jawaban": "C",
+      "pembahasan": "Selisihnya: 4, 6, 8, 10, sehingga selisih berikutnya 12. Suku berikutnya = 30 + 12 = 42. Pola ini juga n × (n + 1): 6 × 7 = 42."
+    },
+    {
+      "id": 14,
+      "kategori": "TPN",
+      "nomor": 4,
+      "pertanyaan": "Deret: 2, 5, 4, 10, 6, 15, 8, ... Angka berikutnya adalah...",
+      "pilihan": {
+        "A": "25",
+        "B": "18",
+        "C": "24",
+        "D": "16",
+        "E": "20"
+      },
+      "jawaban": "E",
+      "pembahasan": "Deret ini gabungan dua pola. Suku ganjil: 2, 4, 6, 8 (naik 2). Suku genap: 5, 10, 15, ... (naik 5), sehingga berikutnya 20."
+    },
+    {
+      "id": 15,
+      "kategori": "TPN",
+      "nomor": 5,
+      "pertanyaan": "Hasil dari 15% dari 240 ditambah 25% dari 80 adalah...",
+      "pilihan": {
+        "A": "60",
+        "B": "56",
+        "C": "66",
+        "D": "52",
+        "E": "46"
+      },
+      "jawaban": "B",
+      "pembahasan": "15% × 240 = 36 dan 25% × 80 = 20. Jumlahnya = 36 + 20 = 56."
+    },
+    {
+      "id": 16,
+      "kategori": "TPN",
+      "nomor": 6,
+      "pertanyaan": "Enam pekerja menyelesaikan suatu proyek dalam 12 hari. Jika dikerjakan oleh 9 pekerja dengan kemampuan sama, proyek selesai dalam ... hari.",
+      "pilihan": {
+        "A": "10 hari",
+        "B": "9 hari",
+        "C": "6 hari",
+        "D": "18 hari",
+        "E": "8 hari"
+      },
+      "jawaban": "E",
+      "pembahasan": "Perbandingan berbalik nilai: pekerja × hari = tetap. 6 × 12 = 72 pekerja-hari, sehingga 72 / 9 = 8 hari."
+    },
+    {
+      "id": 17,
+      "kategori": "TPN",
+      "nomor": 7,
+      "pertanyaan": "Kecepatan 72 km/jam sama dengan ... m/s.",
+      "pilihan": {
+        "A": "15 m/s",
+        "B": "18 m/s",
+        "C": "25 m/s",
+        "D": "36 m/s",
+        "E": "20 m/s"
+      },
+      "jawaban": "E",
+      "pembahasan": "1 km/jam = 1.000/3.600 m/s = 5/18 m/s. Maka 72 × 5/18 = 20 m/s."
+    },
+    {
+      "id": 18,
+      "kategori": "TPN",
+      "nomor": 8,
+      "pertanyaan": "Hasil dari 3/4 + 5/6 − 1/3 adalah...",
+      "pilihan": {
+        "A": "5/4",
+        "B": "11/12",
+        "C": "13/12",
+        "D": "7/6",
+        "E": "3/2"
+      },
+      "jawaban": "A",
+      "pembahasan": "Samakan penyebut 12: 9/12 + 10/12 − 4/12 = 15/12 = 5/4."
+    },
+    {
+      "id": 19,
+      "kategori": "TPN",
+      "nomor": 9,
+      "pertanyaan": "Sebanyak 20 liter larutan 30% dicampur dengan 10 liter larutan 60%. Konsentrasi campuran adalah...",
+      "pilihan": {
+        "A": "35 %",
+        "B": "40 %",
+        "C": "30 %",
+        "D": "50 %",
+        "E": "45 %"
+      },
+      "jawaban": "B",
+      "pembahasan": "Zat terlarut = (20 × 30%) + (10 × 60%) = 6 + 6 = 12 liter. Volume total = 30 liter. Konsentrasi = 12/30 = 40%. Rata-rata sederhana (45%) keliru karena volume tiap larutan berbeda."
+    },
+    {
+      "id": 20,
+      "kategori": "TPN",
+      "nomor": 10,
+      "pertanyaan": "Umur A tiga kali umur B. Enam tahun lagi jumlah umur mereka 52 tahun. Umur A sekarang adalah ... tahun.",
+      "pilihan": {
+        "A": "36 tahun",
+        "B": "40 tahun",
+        "C": "20 tahun",
+        "D": "25 tahun",
+        "E": "30 tahun"
+      },
+      "jawaban": "E",
+      "pembahasan": "Misalkan umur B = x, umur A = 3x. Enam tahun lagi: (3x + 6) + (x + 6) = 52, sehingga 4x = 40 dan x = 10. Umur A = 3 × 10 = 30 tahun."
+    },
+    {
+      "id": 21,
+      "kategori": "TPL",
+      "nomor": 1,
+      "pertanyaan": "Semua operator kilang wajib mengikuti pelatihan K3. Budi adalah operator kilang. Kesimpulan yang tepat adalah...",
+      "pilihan": {
+        "A": "Sebagian operator kilang tidak mengikuti pelatihan K3",
+        "B": "Budi tidak wajib mengikuti pelatihan K3",
+        "C": "Semua yang mengikuti pelatihan K3 adalah operator kilang",
+        "D": "Budi wajib mengikuti pelatihan K3",
+        "E": "Budi bukan operator kilang"
+      },
+      "jawaban": "D",
+      "pembahasan": "Premis mayor: semua operator kilang wajib mengikuti K3. Premis minor: Budi operator kilang. Maka Budi wajib mengikuti pelatihan K3 (silogisme kategorik valid)."
+    },
+    {
+      "id": 22,
+      "kategori": "TPL",
+      "nomor": 2,
+      "pertanyaan": "Jika tekanan pipa melebihi batas, maka alarm berbunyi. Alarm tidak berbunyi. Kesimpulan yang tepat adalah...",
+      "pilihan": {
+        "A": "Alarm rusak",
+        "B": "Tekanan pipa tidak melebihi batas",
+        "C": "Pipa mengalami kebocoran",
+        "D": "Tekanan pipa tepat pada batas",
+        "E": "Tekanan pipa melebihi batas"
+      },
+      "jawaban": "B",
+      "pembahasan": "Ini adalah modus tollens: jika P maka Q, tidak Q, maka tidak P. Karena alarm tidak berbunyi (tidak Q), tekanan pipa tidak melebihi batas (tidak P)."
+    },
+    {
+      "id": 23,
+      "kategori": "TPL",
+      "nomor": 3,
+      "pertanyaan": "Semua logam menghantarkan listrik. Plastik bukan logam. Kesimpulan yang paling tepat adalah...",
+      "pilihan": {
+        "A": "Sebagian plastik adalah logam",
+        "B": "Plastik menghantarkan listrik",
+        "C": "Tidak dapat ditarik kesimpulan pasti mengenai apakah plastik menghantarkan listrik",
+        "D": "Semua penghantar listrik adalah logam",
+        "E": "Plastik tidak menghantarkan listrik"
+      },
+      "jawaban": "C",
+      "pembahasan": "Premis hanya menyatakan logam pasti menghantarkan listrik, tetapi tidak menyatakan bahwa hanya logam yang menghantarkan listrik. Bukan logam tidak otomatis berarti tidak menghantarkan listrik (kekeliruan menyangkal anteseden)."
+    },
+    {
+      "id": 24,
+      "kategori": "TPL",
+      "nomor": 4,
+      "pertanyaan": "A lebih tinggi daripada B. B lebih tinggi daripada C. D lebih rendah daripada C tetapi lebih tinggi daripada E. Siapa yang paling rendah?",
+      "pilihan": {
+        "A": "D",
+        "B": "C",
+        "C": "E",
+        "D": "B",
+        "E": "A"
+      },
+      "jawaban": "C",
+      "pembahasan": "Urutan dari tertinggi: A > B > C > D > E. Jadi yang paling rendah adalah E."
+    },
+    {
+      "id": 25,
+      "kategori": "TPL",
+      "nomor": 5,
+      "pertanyaan": "Lima orang berbaris dari kiri ke kanan: A, B, C, D, dan E. A berada di sebelah kanan B. C berada di sebelah kiri B. D berada di ujung kanan. E berada di antara A dan D. Siapa yang berada di posisi tengah (posisi ke-3)?",
+      "pilihan": {
+        "A": "A",
+        "B": "D",
+        "C": "C",
+        "D": "E",
+        "E": "B"
+      },
+      "jawaban": "A",
+      "pembahasan": "D di posisi 5 (ujung kanan). E di antara A dan D, sehingga A < E < D. A di kanan B dan C di kiri B, sehingga C < B < A. Urutan lengkap dari kiri: C, B, A, E, D. Posisi tengah ditempati A."
+    },
+    {
+      "id": 26,
+      "kategori": "TPL",
+      "nomor": 6,
+      "pertanyaan": "Jika hari ini Selasa, maka 100 hari lagi adalah hari...",
+      "pilihan": {
+        "A": "Sabtu",
+        "B": "Selasa",
+        "C": "Rabu",
+        "D": "Kamis",
+        "E": "Jumat"
+      },
+      "jawaban": "D",
+      "pembahasan": "Satu pekan = 7 hari. 100 = (14 × 7) + 2, sisa 2 hari. Selasa + 2 hari = Kamis."
+    },
+    {
+      "id": 27,
+      "kategori": "TPL",
+      "nomor": 7,
+      "pertanyaan": "Sebagian pegawai adalah analis. Semua analis berkacamata. Kesimpulan yang tepat adalah...",
+      "pilihan": {
+        "A": "Sebagian analis bukan pegawai",
+        "B": "Tidak ada pegawai yang berkacamata",
+        "C": "Sebagian pegawai berkacamata",
+        "D": "Semua pegawai berkacamata",
+        "E": "Semua yang berkacamata adalah analis"
+      },
+      "jawaban": "C",
+      "pembahasan": "Ada pegawai yang berstatus analis, dan semua analis berkacamata, sehingga pegawai-pegawai tersebut berkacamata. Maka sebagian pegawai berkacamata."
+    },
+    {
+      "id": 28,
+      "kategori": "TPL",
+      "nomor": 8,
+      "pertanyaan": "Deret huruf: B, D, G, K, P, ... Huruf berikutnya adalah...",
+      "pilihan": {
+        "A": "V",
+        "B": "T",
+        "C": "X",
+        "D": "U",
+        "E": "W"
+      },
+      "jawaban": "A",
+      "pembahasan": "Ubah ke urutan abjad: B=2, D=4, G=7, K=11, P=16. Selisihnya +2, +3, +4, +5, sehingga berikutnya +6. 16 + 6 = 22, yaitu huruf V."
+    },
+    {
+      "id": 29,
+      "kategori": "TPL",
+      "nomor": 9,
+      "pertanyaan": "Ani adalah ibu dari Budi. Budi adalah saudara kandung Citra. Dodi adalah anak Citra. Hubungan Ani terhadap Dodi adalah...",
+      "pilihan": {
+        "A": "Nenek",
+        "B": "Kakak perempuan",
+        "C": "Cucu",
+        "D": "Ibu",
+        "E": "Bibi"
+      },
+      "jawaban": "A",
+      "pembahasan": "Budi dan Citra bersaudara kandung, sehingga Ani juga ibu Citra. Dodi anak Citra, maka Ani adalah nenek Dodi."
+    },
+    {
+      "id": 30,
+      "kategori": "TPL",
+      "nomor": 10,
+      "pertanyaan": "Dari 40 peserta, 25 lulus Tes A, 20 lulus Tes B, dan 5 tidak lulus keduanya. Banyak peserta yang lulus kedua tes adalah... orang.",
+      "pilihan": {
+        "A": "20 orang",
+        "B": "15 orang",
+        "C": "30 orang",
+        "D": "10 orang",
+        "E": "5 orang"
+      },
+      "jawaban": "D",
+      "pembahasan": "Peserta yang lulus minimal satu tes = 40 − 5 = 35. Rumus gabungan: n(A ∪ B) = n(A) + n(B) − n(A ∩ B), sehingga 35 = 25 + 20 − n(A ∩ B). Maka n(A ∩ B) = 10."
+    }
+  ]
+}

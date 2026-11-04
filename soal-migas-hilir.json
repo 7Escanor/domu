@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "judul": "Simulasi Tes Wawasan & Pengetahuan Migas Bidang Hilir – Staf Analis Pengawal Energi",
+    "total_soal": 30,
+    "durasi_menit": 40,
+    "kategori": [
+      {
+        "kode": "PGL",
+        "nama": "Pengolahan & Kilang",
+        "jumlah": 10,
+        "bobot_benar": 4,
+        "bobot_salah": 0
+      },
+      {
+        "kode": "DST",
+        "nama": "Pengangkutan, Penyimpanan & Distribusi",
+        "jumlah": 10,
+        "bobot_benar": 4,
+        "bobot_salah": 0
+      },
+      {
+        "kode": "REG",
+        "nama": "Niaga, Regulasi & Transisi Energi",
+        "jumlah": 10,
+        "bobot_benar": 4,
+        "bobot_salah": 0
+      }
+    ]
+  },
+  "soal": [
+    {
+      "id": 1,
+      "kategori": "PGL",
+      "nomor": 1,
+      "pertanyaan": "Proses pemisahan minyak mentah menjadi fraksi-fraksi berdasarkan perbedaan titik didih pada unit Crude Distillation Unit (CDU) disebut...",
+      "pilihan": {
+        "A": "Distilasi fraksinasi (distilasi bertingkat)",
+        "B": "Perengkahan katalitik (cracking)",
+        "C": "Ekstraksi pelarut",
+        "D": "Kristalisasi",
+        "E": "Reforming katalitik"
+      },
+      "jawaban": "A",
+      "pembahasan": "Kilang minyak mengawali pengolahan dengan distilasi atmosferik di CDU. Minyak mentah dipanaskan lalu diuapkan di menara fraksinasi, dan setiap fraksi (gas, nafta, kerosin, solar, residu) keluar pada ketinggian berbeda sesuai titik didihnya."
+    },
+    {
+      "id": 2,
+      "kategori": "PGL",
+      "nomor": 2,
+      "pertanyaan": "Pada menara distilasi atmosferik, fraksi dengan titik didih paling tinggi yang keluar dari bagian paling bawah menara adalah...",
+      "pilihan": {
+        "A": "Kerosin",
+        "B": "Gas oil (solar)",
+        "C": "Nafta",
+        "D": "Residu atmosferik",
+        "E": "Gas dan LPG"
+      },
+      "jawaban": "D",
+      "pembahasan": "Fraksi ringan (gas, nafta) naik ke bagian atas menara, sedangkan fraksi berat dengan titik didih tertinggi tertinggal di bagian bawah sebagai residu atmosferik. Residu ini biasanya diolah lebih lanjut di unit konversi seperti vakum distilasi atau cracking."
+    },
+    {
+      "id": 3,
+      "kategori": "PGL",
+      "nomor": 3,
+      "pertanyaan": "Tujuan utama unit Fluid Catalytic Cracking (FCC) di kilang minyak adalah...",
+      "pilihan": {
+        "A": "Menggabungkan molekul kecil menjadi polimer plastik",
+        "B": "Menghilangkan sulfur dari solar menggunakan gas hidrogen",
+        "C": "Memecah molekul hidrokarbon berat menjadi produk lebih ringan dan bernilai tinggi seperti bensin dan LPG",
+        "D": "Memisahkan air dan garam dari minyak mentah",
+        "E": "Mengubah gas alam menjadi LNG"
+      },
+      "jawaban": "C",
+      "pembahasan": "FCC menggunakan katalis pada suhu tinggi untuk memecah rantai karbon panjang (misalnya gas oil berat) menjadi molekul lebih pendek. Unit ini menjadi sumber utama bensin dan LPG di banyak kilang."
+    },
+    {
+      "id": 4,
+      "kategori": "PGL",
+      "nomor": 4,
+      "pertanyaan": "Proses catalytic reforming di kilang digunakan untuk...",
+      "pilihan": {
+        "A": "Memisahkan LPG dari gas buang",
+        "B": "Meningkatkan bilangan oktan nafta dengan mengubah struktur molekul menjadi senyawa aromatik",
+        "C": "Menghilangkan logam berat dari minyak mentah",
+        "D": "Menurunkan titik tuang residu",
+        "E": "Meningkatkan bilangan setana solar"
+      },
+      "jawaban": "B",
+      "pembahasan": "Catalytic reforming mengubah nafta berangka oktan rendah (parafin dan nafteen) menjadi reformat yang kaya aromatik dan beroktan tinggi. Reformat menjadi komponen penting pencampuran bensin (gasoline blending). Proses ini juga menghasilkan hidrogen sebagai produk samping."
+    },
+    {
+      "id": 5,
+      "kategori": "PGL",
+      "nomor": 5,
+      "pertanyaan": "Unit hydrotreating (misalnya hydrodesulfurization) di kilang menggunakan gas hidrogen dan katalis terutama untuk...",
+      "pilihan": {
+        "A": "Memisahkan garam dari minyak mentah",
+        "B": "Memecah residu menjadi kokas",
+        "C": "Menaikkan kadar aromatik bensin",
+        "D": "Menurunkan titik didih nafta",
+        "E": "Menghilangkan sulfur (dan nitrogen) dari fraksi minyak bumi"
+      },
+      "jawaban": "E",
+      "pembahasan": "Hydrotreating mengubah senyawa sulfur menjadi H₂S yang kemudian dipisahkan dan diolah. Tujuannya memenuhi spesifikasi kadar sulfur produk (misalnya solar) dan mengurangi emisi SOx."
+    },
+    {
+      "id": 6,
+      "kategori": "PGL",
+      "nomor": 6,
+      "pertanyaan": "Minyak mentah dengan °API tinggi (relatif ringan) dan kadar sulfur rendah umumnya disebut...",
+      "pilihan": {
+        "A": "Light sour crude",
+        "B": "Heavy sour crude",
+        "C": "Light sweet crude",
+        "D": "Heavy sweet crude",
+        "E": "Medium sour crude"
+      },
+      "jawaban": "C",
+      "pembahasan": "°API semakin tinggi berarti minyak semakin ringan (°API = 141,5/SG − 131,5). \"Sweet\" berarti kadar sulfur rendah (kurang dari kira-kira 0,5%). Light sweet crude umumnya lebih mudah diolah dan menghasilkan lebih banyak produk ringan bernilai tinggi sehingga harganya lebih tinggi."
+    },
+    {
+      "id": 7,
+      "kategori": "PGL",
+      "nomor": 7,
+      "pertanyaan": "Produk BBM Pertamina berikut yang memiliki angka oktan (RON) 92 adalah...",
+      "pilihan": {
+        "A": "Pertalite",
+        "B": "Pertamax Turbo",
+        "C": "Pertamax Green 95",
+        "D": "Pertamax",
+        "E": "Biosolar"
+      },
+      "jawaban": "D",
+      "pembahasan": "Pertalite memiliki RON 90, Pertamax RON 92, Pertamax Green 95 RON 95, dan Pertamax Turbo RON 98. Biosolar adalah bahan bakar mesin diesel sehingga mutunya diukur dengan bilangan setana, bukan RON."
+    },
+    {
+      "id": 8,
+      "kategori": "PGL",
+      "nomor": 8,
+      "pertanyaan": "Bilangan setana (cetane number) merupakan ukuran...",
+      "pilihan": {
+        "A": "Kualitas penyalaan (kemudahan terbakar) bahan bakar mesin diesel",
+        "B": "Kekentalan minyak pelumas",
+        "C": "Titik nyala avtur",
+        "D": "Kandungan sulfur dalam solar",
+        "E": "Ketahanan bensin terhadap ketukan (knocking)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Bilangan setana menunjukkan seberapa cepat solar menyala saat disemprotkan ke ruang bakar bertekanan tinggi. Semakin tinggi bilangan setana, semakin baik penyalaan dan pembakarannya. Ketahanan terhadap knocking pada bensin diukur dengan bilangan oktan."
+    },
+    {
+      "id": 9,
+      "kategori": "PGL",
+      "nomor": 9,
+      "pertanyaan": "Kilang minyak Pertamina dengan kapasitas pengolahan terbesar saat ini berlokasi di...",
+      "pilihan": {
+        "A": "Balikpapan",
+        "B": "Cilacap",
+        "C": "Plaju",
+        "D": "Dumai",
+        "E": "Balongan"
+      },
+      "jawaban": "B",
+      "pembahasan": "Kilang Cilacap, Jawa Tengah memiliki kapasitas terbesar, yaitu sekitar 348 ribu barel per hari (MBSD). Kilang Pertamina lainnya antara lain Balikpapan, Dumai, Plaju, Balongan, dan Kasim (Sorong)."
+    },
+    {
+      "id": 10,
+      "kategori": "PGL",
+      "nomor": 10,
+      "pertanyaan": "Nelson Complexity Index (NCI) digunakan untuk menilai...",
+      "pilihan": {
+        "A": "Kapasitas tangki penimbun",
+        "B": "Tingkat kompleksitas dan kemampuan konversi suatu kilang minyak",
+        "C": "Harga produk BBM di pasar Singapura",
+        "D": "Efisiensi distribusi BBM ke SPBU",
+        "E": "Tingkat kemurnian minyak mentah"
+      },
+      "jawaban": "B",
+      "pembahasan": "NCI mengukur kompleksitas kilang berdasarkan kapasitas unit-unit konversi relatif terhadap kapasitas distilasi atmosferik. Semakin tinggi NCI, semakin mampu kilang mengolah minyak mentah berat menjadi produk bernilai tinggi dan fleksibel terhadap kualitas minyak mentah."
+    },
+    {
+      "id": 11,
+      "kategori": "DST",
+      "nomor": 1,
+      "pertanyaan": "Satu barel minyak bumi (standar industri migas) setara dengan ... liter.",
+      "pilihan": {
+        "A": "159 liter",
+        "B": "264 liter",
+        "C": "200 liter",
+        "D": "42 liter",
+        "E": "100 liter"
+      },
+      "jawaban": "A",
+      "pembahasan": "Satu barel minyak bumi = 42 galon AS, yaitu kira-kira 159 liter. Satuan kapasitas kilang biasanya dinyatakan dalam barel per hari (BPD) atau barrels per stream day (BPSD)."
+    },
+    {
+      "id": 12,
+      "kategori": "DST",
+      "nomor": 2,
+      "pertanyaan": "LNG (Liquefied Natural Gas) disimpan dan diangkut dalam bentuk cair pada suhu kira-kira...",
+      "pilihan": {
+        "A": "−80 °C pada tekanan mendekati atmosfer",
+        "B": "−160 °C pada tekanan mendekati atmosfer",
+        "C": "−273 °C pada tekanan atmosfer",
+        "D": "0 °C pada tekanan 10 atm",
+        "E": "−40 °C pada tekanan mendekati atmosfer"
+      },
+      "jawaban": "B",
+      "pembahasan": "Gas alam yang didominasi metana dicairkan pada suhu sekitar −160 °C (titik didih metana sekitar −162 °C) sehingga volumenya menyusut kira-kira 600 kali dan lebih ekonomis diangkut dengan kapal LNG."
+    },
+    {
+      "id": 13,
+      "kategori": "DST",
+      "nomor": 3,
+      "pertanyaan": "Komponen utama LPG (Liquefied Petroleum Gas) adalah...",
+      "pilihan": {
+        "A": "Metana dan propana",
+        "B": "Metana (CH₄) dan etana (C₂H₆)",
+        "C": "Etana dan etena",
+        "D": "Propana (C₃H₈) dan butana (C₄H₁₀)",
+        "E": "Pentana dan heksana"
+      },
+      "jawaban": "D",
+      "pembahasan": "LPG merupakan campuran hidrokarbon C3 dan C4 (propana dan butana) yang mudah dicairkan dengan tekanan moderat pada suhu normal. Metana adalah komponen utama gas alam atau LNG."
+    },
+    {
+      "id": 14,
+      "kategori": "DST",
+      "nomor": 4,
+      "pertanyaan": "Tangki penimbun produk mudah menguap seperti bensin sering menggunakan atap apung (floating roof) karena...",
+      "pilihan": {
+        "A": "Atap apung mengurangi kebutuhan pondasi tangki",
+        "B": "Atap apung mempercepat pencampuran produk",
+        "C": "Atap apung menambah kapasitas tangki dengan menaikkan tekanan",
+        "D": "Atap apung menjaga produk tetap hangat",
+        "E": "Atap mengikuti permukaan cairan sehingga ruang uap berkurang, dan kehilangan akibat penguapan serta risiko kebakaran menurun"
+      },
+      "jawaban": "E",
+      "pembahasan": "Pada floating roof tank, atap naik-turun mengikuti level cairan sehingga ruang uap di atas cairan sangat kecil. Dampaknya, kehilangan produk akibat penguapan, emisi, dan potensi campuran uap yang mudah terbakar berkurang."
+    },
+    {
+      "id": 15,
+      "kategori": "DST",
+      "nomor": 5,
+      "pertanyaan": "Keunggulan utama pengangkutan minyak atau gas melalui pipa dibandingkan truk tangki untuk volume besar dan jarak jauh adalah...",
+      "pilihan": {
+        "A": "Paling cocok untuk pengiriman volume kecil ke banyak titik",
+        "B": "Tidak memerlukan investasi awal",
+        "C": "Rute dapat diubah dengan mudah sesuai tujuan konsumen",
+        "D": "Biaya per satuan volume lebih rendah dan aliran kontinu dengan risiko lalu lintas lebih kecil",
+        "E": "Tidak ada risiko kebocoran sama sekali"
+      },
+      "jawaban": "D",
+      "pembahasan": "Pipa membutuhkan investasi awal besar, tetapi setelah beroperasi biaya angkut per satuan volume rendah, aliran stabil, dan lebih aman dari kecelakaan lalu lintas. Truk lebih fleksibel untuk volume kecil dan titik tujuan beragam."
+    },
+    {
+      "id": 16,
+      "kategori": "DST",
+      "nomor": 6,
+      "pertanyaan": "FSRU (Floating Storage and Regasification Unit) adalah...",
+      "pilihan": {
+        "A": "Anjungan pengeboran lepas pantai",
+        "B": "Fasilitas terapung yang menyimpan LNG dan mengubahnya kembali menjadi gas (regasifikasi)",
+        "C": "Unit pengolahan nafta di kilang",
+        "D": "Kapal pengangkut minyak mentah berukuran sangat besar",
+        "E": "Kapal pengangkut LPG bertekanan"
+      },
+      "jawaban": "B",
+      "pembahasan": "FSRU menerima LNG dari kapal pengangkut, menyimpannya, lalu memanaskannya sehingga kembali menjadi gas untuk disalurkan melalui pipa ke pembangkit listrik atau industri. FSRU lebih cepat dibangun dibandingkan terminal regasifikasi darat."
+    },
+    {
+      "id": 17,
+      "kategori": "DST",
+      "nomor": 7,
+      "pertanyaan": "Pengukuran yang menjadi dasar transaksi serah terima (jual-beli) minyak atau gas antara dua pihak disebut...",
+      "pilihan": {
+        "A": "Corrosion monitoring",
+        "B": "Leak detection",
+        "C": "Pressure relief",
+        "D": "Custody transfer metering",
+        "E": "Process monitoring"
+      },
+      "jawaban": "D",
+      "pembahasan": "Custody transfer adalah pengukuran volume atau massa yang dipakai sebagai dasar perpindahan kepemilikan dan pembayaran. Karena menyangkut nilai uang, alat ukurnya harus akurat, dikalibrasi, dan biasanya diverifikasi kedua pihak."
+    },
+    {
+      "id": 18,
+      "kategori": "DST",
+      "nomor": 8,
+      "pertanyaan": "Fungsi utama Terminal BBM (TBBM) dalam rantai distribusi hilir adalah...",
+      "pilihan": {
+        "A": "Menghasilkan listrik bagi SPBU",
+        "B": "Mengolah minyak mentah menjadi BBM",
+        "C": "Menerima, menimbun, dan menyalurkan BBM dari kapal atau pipa ke SPBU dan konsumen",
+        "D": "Menetapkan harga BBM nasional",
+        "E": "Mengebor sumur minyak"
+      },
+      "jawaban": "C",
+      "pembahasan": "TBBM menerima BBM dari kilang atau impor, menyimpannya di tangki timbun, lalu menyalurkannya melalui mobil tangki, kapal, atau pipa ke SPBU dan konsumen industri. Pengolahan dilakukan di kilang, sedangkan penetapan harga merupakan kewenangan pemerintah dan badan usaha sesuai aturan."
+    },
+    {
+      "id": 19,
+      "kategori": "DST",
+      "nomor": 9,
+      "pertanyaan": "Uap bensin berbahaya terutama di area rendah seperti parit atau cekungan karena...",
+      "pilihan": {
+        "A": "Uap bensin lebih ringan daripada udara sehingga langsung naik dan hilang",
+        "B": "Bensin menyala spontan pada suhu ruang",
+        "C": "Uap bensin lebih berat daripada udara sehingga mengendap di dasar dan dapat mencapai sumber api",
+        "D": "Uap bensin bersifat inert dan tidak dapat terbakar",
+        "E": "Uap bensin tidak dapat bercampur dengan udara"
+      },
+      "jawaban": "C",
+      "pembahasan": "Densitas uap bensin kira-kira 3–4 kali udara, sehingga uap cenderung mengalir dan terakumulasi di tempat rendah, bahkan dapat bergerak jauh hingga bertemu sumber penyalaan. Karena itu ventilasi dan pengendalian sumber api sangat penting di area penanganan BBM."
+    },
+    {
+      "id": 20,
+      "kategori": "DST",
+      "nomor": 10,
+      "pertanyaan": "Campuran uap hidrokarbon dan udara hanya dapat terbakar jika konsentrasinya berada di antara...",
+      "pilihan": {
+        "A": "Tekanan kritis dan suhu kritis",
+        "B": "Batas bawah (LEL) dan batas atas (UEL) mudah terbakar",
+        "C": "Titik didih dan titik beku",
+        "D": "Titik tuang dan titik kabut",
+        "E": "Titik nyala dan titik api"
+      },
+      "jawaban": "B",
+      "pembahasan": "Lower Explosive Limit (LEL) adalah konsentrasi minimum uap di udara yang dapat menyala, sedangkan Upper Explosive Limit (UEL) adalah konsentrasi maksimumnya. Di bawah LEL campuran terlalu miskin, di atas UEL terlalu kaya sehingga tidak dapat terbakar."
+    },
+    {
+      "id": 21,
+      "kategori": "REG",
+      "nomor": 1,
+      "pertanyaan": "Menurut UU No. 22 Tahun 2001 tentang Minyak dan Gas Bumi, kegiatan usaha hilir mencakup...",
+      "pilihan": {
+        "A": "Pengolahan, pengangkutan, penyimpanan, dan niaga",
+        "B": "Pengeboran, produksi, dan pemurnian",
+        "C": "Survei seismik, pengeboran, dan pengangkutan gas",
+        "D": "Eksplorasi dan eksploitasi",
+        "E": "Eksplorasi, eksploitasi, dan pengolahan"
+      },
+      "jawaban": "A",
+      "pembahasan": "UU Migas membagi kegiatan usaha menjadi hulu (eksplorasi dan eksploitasi) serta hilir (pengolahan, pengangkutan, penyimpanan, dan niaga)."
+    },
+    {
+      "id": 22,
+      "kategori": "REG",
+      "nomor": 2,
+      "pertanyaan": "Tugas pokok Badan Pengatur Hilir Minyak dan Gas Bumi (BPH Migas) adalah...",
+      "pilihan": {
+        "A": "Menjalankan operasi kilang minyak",
+        "B": "Mengendalikan kontrak kerja sama kegiatan usaha hulu",
+        "C": "Mengelola cadangan devisa negara",
+        "D": "Mengatur dan mengawasi penyediaan dan pendistribusian BBM serta pengangkutan gas bumi melalui pipa",
+        "E": "Melakukan eksplorasi di wilayah kerja baru"
+      },
+      "jawaban": "D",
+      "pembahasan": "BPH Migas dibentuk berdasarkan UU 22/2001 untuk menjamin ketersediaan dan distribusi BBM serta gas bumi melalui pipa, mengatur tarif pengangkutan gas bumi melalui pipa, dan mengawasi hilir agar berjalan adil dan transparan. Pengendalian kontrak kerja sama hulu dilakukan oleh SKK Migas."
+    },
+    {
+      "id": 23,
+      "kategori": "REG",
+      "nomor": 3,
+      "pertanyaan": "Berdasarkan Perpres No. 191 Tahun 2014 dan perubahannya, minyak solar bersubsidi termasuk kategori...",
+      "pilihan": {
+        "A": "Jenis BBM Khusus Penugasan (JBKP)",
+        "B": "BBM industri",
+        "C": "Jenis BBM Tertentu (JBT)",
+        "D": "Jenis BBM Umum (JBU)",
+        "E": "BBM bunker"
+      },
+      "jawaban": "C",
+      "pembahasan": "Peraturan tersebut membagi BBM menjadi JBT (minyak tanah dan minyak solar), JBKP (misalnya bensin RON 90), dan JBU (BBM non-subsidi). JBT dan JBKP memiliki pengaturan kuota dan penugasan."
+    },
+    {
+      "id": 24,
+      "kategori": "REG",
+      "nomor": 4,
+      "pertanyaan": "Singkatan MOPS dalam industri BBM yang menjadi salah satu rujukan penentuan harga produk BBM adalah...",
+      "pilihan": {
+        "A": "Mean of Platts Singapore",
+        "B": "Market Oil Price Standard",
+        "C": "Monthly Oil Production Statistics",
+        "D": "Mean of Petroleum Sales",
+        "E": "Maximum Oil Pricing System"
+      },
+      "jawaban": "A",
+      "pembahasan": "MOPS adalah rata-rata harga produk minyak yang dipublikasikan Platts di pasar Singapura. Harga indeks pasar BBM di Indonesia banyak dirujuk dari MOPS karena Singapura menjadi pusat perdagangan produk minyak di Asia."
+    },
+    {
+      "id": 25,
+      "kategori": "REG",
+      "nomor": 5,
+      "pertanyaan": "ICP yang digunakan sebagai asumsi makro dalam APBN merupakan...",
+      "pilihan": {
+        "A": "Import Cost Price, harga pokok BBM impor",
+        "B": "Indonesian Commodity Price, harga komoditas ekspor",
+        "C": "Indonesian Carbon Price, harga karbon nasional",
+        "D": "International Crude Parity, harga pasar minyak dunia",
+        "E": "Indonesian Crude Price, harga rata-rata minyak mentah Indonesia"
+      },
+      "jawaban": "E",
+      "pembahasan": "Indonesian Crude Price (ICP) adalah harga rata-rata minyak mentah Indonesia yang ditetapkan pemerintah dan menjadi acuan perhitungan penerimaan negara dari sektor migas serta asumsi dalam APBN."
+    },
+    {
+      "id": 26,
+      "kategori": "REG",
+      "nomor": 6,
+      "pertanyaan": "Cadangan yang disiapkan pemerintah untuk menghadapi krisis atau gangguan pasokan energi nasional disebut...",
+      "pilihan": {
+        "A": "Cadangan potensial",
+        "B": "Cadangan operasional",
+        "C": "Cadangan devisa",
+        "D": "Cadangan terbukti (proven reserves)",
+        "E": "Cadangan penyangga energi"
+      },
+      "jawaban": "E",
+      "pembahasan": "UU No. 30 Tahun 2007 tentang Energi mengatur cadangan penyangga energi sebagai jumlah cadangan energi tertentu yang diperlukan untuk menjamin ketahanan energi nasional pada kondisi krisis dan darurat. Cadangan operasional adalah stok yang dikelola badan usaha untuk kelancaran distribusi, sedangkan cadangan terbukti adalah istilah di sektor hulu."
+    },
+    {
+      "id": 27,
+      "kategori": "REG",
+      "nomor": 7,
+      "pertanyaan": "Pada program biodiesel B40, angka 40 menunjukkan...",
+      "pilihan": {
+        "A": "Persentase biodiesel (FAME) 40% volume dalam campuran dengan solar",
+        "B": "Tahun penerapan program, yaitu 2040",
+        "C": "Persentase etanol dalam bensin",
+        "D": "Bilangan setana minimal 40",
+        "E": "Kadar sulfur maksimal 40 ppm"
+      },
+      "jawaban": "A",
+      "pembahasan": "B40 berarti campuran bahan bakar mengandung 40% biodiesel (umumnya FAME dari minyak sawit) dan sisanya solar. Program mandatori biodiesel bertujuan menekan impor solar dan meningkatkan pemanfaatan energi baru terbarukan."
+    },
+    {
+      "id": 28,
+      "kategori": "REG",
+      "nomor": 8,
+      "pertanyaan": "Lembaga yang melaksanakan pengendalian dan pengawasan kegiatan usaha hulu migas berdasarkan kontrak kerja sama adalah...",
+      "pilihan": {
+        "A": "Lemigas",
+        "B": "KPPU",
+        "C": "SKK Migas",
+        "D": "PT Perusahaan Gas Negara",
+        "E": "BPH Migas"
+      },
+      "jawaban": "C",
+      "pembahasan": "SKK Migas dibentuk pada 2013 setelah Mahkamah Konstitusi pada 2012 membubarkan BP Migas. Lembaga ini mengawasi kontraktor kontrak kerja sama (KKKS) di sektor hulu, sedangkan BPH Migas bertugas di sektor hilir."
+    },
+    {
+      "id": 29,
+      "kategori": "REG",
+      "nomor": 9,
+      "pertanyaan": "Teknologi Carbon Capture and Storage (CCS) pada industri seperti kilang bertujuan...",
+      "pilihan": {
+        "A": "Mengurangi kadar sulfur pada bensin",
+        "B": "Menambah kadar CO₂ untuk menaikkan angka oktan",
+        "C": "Mengubah CO₂ menjadi oksigen langsung di cerobong",
+        "D": "Menggantikan minyak mentah dengan etanol",
+        "E": "Menangkap emisi CO₂ lalu menyimpannya secara permanen di formasi geologi bawah tanah agar tidak lepas ke atmosfer"
+      },
+      "jawaban": "E",
+      "pembahasan": "CCS memisahkan CO₂ dari gas buang, menekannya, mengangkutnya (misalnya melalui pipa), lalu menginjeksikannya ke reservoir atau akuifer garam dalam. CCS menjadi salah satu opsi dekarbonisasi pada industri yang sulit mengurangi emisi."
+    },
+    {
+      "id": 30,
+      "kategori": "REG",
+      "nomor": 10,
+      "pertanyaan": "Prinsip open access pada pengangkutan gas bumi melalui pipa berarti...",
+      "pilihan": {
+        "A": "Pipa gas harus dibongkar jika kapasitasnya tidak terpakai",
+        "B": "Pipa gas dapat digunakan siapa saja tanpa biaya",
+        "C": "Hanya pemilik pipa yang boleh menyalurkan gas",
+        "D": "Pemerintah menetapkan satu pengguna tunggal untuk setiap pipa",
+        "E": "Pihak lain dapat memanfaatkan kapasitas pipa yang belum terpakai dengan membayar tarif pengangkutan (toll fee) sesuai ketentuan"
+      },
+      "jawaban": "E",
+      "pembahasan": "Dalam skema open access, pemilik pipa wajib membuka akses bagi pihak ketiga atas kapasitas yang tersedia dengan tarif (toll fee) yang diatur BPH Migas. Tujuannya meningkatkan pemanfaatan infrastruktur dan persaingan yang sehat."
+    }
+  ]
+}

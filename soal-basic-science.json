@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "judul": "Simulasi Tes Basic Science – Staf Analis Pengawal Energi",
+    "total_soal": 30,
+    "durasi_menit": 45,
+    "kategori": [
+      {
+        "kode": "FIS",
+        "nama": "Fisika Dasar",
+        "jumlah": 10,
+        "bobot_benar": 4,
+        "bobot_salah": 0
+      },
+      {
+        "kode": "KIM",
+        "nama": "Kimia Dasar",
+        "jumlah": 10,
+        "bobot_benar": 4,
+        "bobot_salah": 0
+      },
+      {
+        "kode": "MAT",
+        "nama": "Matematika Dasar",
+        "jumlah": 10,
+        "bobot_benar": 4,
+        "bobot_salah": 0
+      }
+    ]
+  },
+  "soal": [
+    {
+      "id": 1,
+      "kategori": "FIS",
+      "nomor": 1,
+      "pertanyaan": "Sebuah benda bervolume 0,002 m³ tercelup seluruhnya di dalam air (massa jenis 1.000 kg/m³). Jika g = 10 m/s², gaya apung yang bekerja pada benda adalah...",
+      "pilihan": {
+        "A": "2 N",
+        "B": "20 N",
+        "C": "200 N",
+        "D": "40 N",
+        "E": "10 N"
+      },
+      "jawaban": "B",
+      "pembahasan": "Gaya apung (Hukum Archimedes): F = ρ × g × V = 1.000 × 10 × 0,002 = 20 N. Gaya apung sama dengan berat fluida yang dipindahkan benda."
+    },
+    {
+      "id": 2,
+      "kategori": "FIS",
+      "nomor": 2,
+      "pertanyaan": "Sebuah pompa mengangkat 200 kg air setinggi 10 m dalam waktu 20 detik. Jika g = 10 m/s², daya minimum pompa tersebut adalah...",
+      "pilihan": {
+        "A": "500 W",
+        "B": "100 W",
+        "C": "2.000 W",
+        "D": "20.000 W",
+        "E": "1.000 W"
+      },
+      "jawaban": "E",
+      "pembahasan": "Usaha = m × g × h = 200 × 10 × 10 = 20.000 J. Daya = usaha / waktu = 20.000 / 20 = 1.000 W."
+    },
+    {
+      "id": 3,
+      "kategori": "FIS",
+      "nomor": 3,
+      "pertanyaan": "Air mengalir dalam pipa berdiameter 10 cm dengan kecepatan 2 m/s. Pipa kemudian menyempit menjadi berdiameter 5 cm. Kecepatan aliran di bagian yang menyempit adalah...",
+      "pilihan": {
+        "A": "16 m/s",
+        "B": "4 m/s",
+        "C": "8 m/s",
+        "D": "6 m/s",
+        "E": "1 m/s"
+      },
+      "jawaban": "C",
+      "pembahasan": "Persamaan kontinuitas: A₁v₁ = A₂v₂. Luas penampang sebanding dengan kuadrat diameter. Diameter menjadi setengahnya, sehingga luas menjadi seperempat dan kecepatan menjadi 4 kali: 2 × 4 = 8 m/s."
+    },
+    {
+      "id": 4,
+      "kategori": "FIS",
+      "nomor": 4,
+      "pertanyaan": "Suatu sistem menerima kalor 500 J dan melakukan usaha 200 J terhadap lingkungan. Perubahan energi dalam sistem adalah...",
+      "pilihan": {
+        "A": "200 J",
+        "B": "300 J",
+        "C": "500 J",
+        "D": "100 J",
+        "E": "700 J"
+      },
+      "jawaban": "B",
+      "pembahasan": "Hukum I Termodinamika: Q = ΔU + W, sehingga ΔU = Q − W = 500 − 200 = 300 J."
+    },
+    {
+      "id": 5,
+      "kategori": "FIS",
+      "nomor": 5,
+      "pertanyaan": "Sebuah tangki menyimpan minyak mentah dengan massa jenis 800 kg/m³ setinggi 10 m. Jika g = 10 m/s², tekanan hidrostatis di dasar tangki adalah...",
+      "pilihan": {
+        "A": "100.000 Pa",
+        "B": "40.000 Pa",
+        "C": "8.000 Pa",
+        "D": "80.000 Pa",
+        "E": "800.000 Pa"
+      },
+      "jawaban": "D",
+      "pembahasan": "Tekanan hidrostatis: P = ρ × g × h = 800 × 10 × 10 = 80.000 Pa."
+    },
+    {
+      "id": 6,
+      "kategori": "FIS",
+      "nomor": 6,
+      "pertanyaan": "Sebanyak 2 kg air (kalor jenis 4.200 J/kg°C) dipanaskan dari 20°C menjadi 70°C. Kalor yang diperlukan adalah...",
+      "pilihan": {
+        "A": "420.000 J",
+        "B": "42.000 J",
+        "C": "84.000 J",
+        "D": "210.000 J",
+        "E": "840.000 J"
+      },
+      "jawaban": "A",
+      "pembahasan": "Q = m × c × ΔT = 2 × 4.200 × (70 − 20) = 2 × 4.200 × 50 = 420.000 J."
+    },
+    {
+      "id": 7,
+      "kategori": "FIS",
+      "nomor": 7,
+      "pertanyaan": "Sebuah lampu bertuliskan 12 V memiliki hambatan 4 Ω. Daya yang digunakan lampu saat dipasang pada tegangan 12 V adalah...",
+      "pilihan": {
+        "A": "144 W",
+        "B": "36 W",
+        "C": "48 W",
+        "D": "3 W",
+        "E": "12 W"
+      },
+      "jawaban": "B",
+      "pembahasan": "P = V²/R = 12² / 4 = 144 / 4 = 36 W. Cara lain: I = V/R = 3 A, lalu P = V × I = 12 × 3 = 36 W."
+    },
+    {
+      "id": 8,
+      "kategori": "FIS",
+      "nomor": 8,
+      "pertanyaan": "Panas matahari dapat sampai ke bumi melalui ruang hampa udara. Mekanisme perpindahan kalor tersebut adalah...",
+      "pilihan": {
+        "A": "Konduksi dan konveksi secara bersamaan",
+        "B": "Konveksi",
+        "C": "Konduksi",
+        "D": "Radiasi",
+        "E": "Evaporasi"
+      },
+      "jawaban": "D",
+      "pembahasan": "Radiasi adalah perpindahan kalor dalam bentuk gelombang elektromagnetik yang tidak memerlukan medium perantara. Konduksi memerlukan zat padat sebagai perantara dan konveksi memerlukan fluida yang bergerak."
+    },
+    {
+      "id": 9,
+      "kategori": "FIS",
+      "nomor": 9,
+      "pertanyaan": "Sebuah mesin Carnot bekerja di antara reservoir bersuhu tinggi 800 K dan reservoir bersuhu rendah 400 K. Efisiensi maksimum mesin tersebut adalah...",
+      "pilihan": {
+        "A": "50 %",
+        "B": "60 %",
+        "C": "25 %",
+        "D": "75 %",
+        "E": "40 %"
+      },
+      "jawaban": "A",
+      "pembahasan": "Efisiensi Carnot: η = 1 − (Tr/Tt) = 1 − (400/800) = 0,5 atau 50%. Suhu harus dalam satuan Kelvin."
+    },
+    {
+      "id": 10,
+      "kategori": "FIS",
+      "nomor": 10,
+      "pertanyaan": "Sebuah benda bermassa 2 kg bergerak dengan kecepatan 6 m/s. Jika kecepatannya dijadikan dua kali semula, energi kinetik benda menjadi...",
+      "pilihan": {
+        "A": "144 J",
+        "B": "36 J",
+        "C": "72 J",
+        "D": "576 J",
+        "E": "288 J"
+      },
+      "jawaban": "A",
+      "pembahasan": "Ek = ½ m v². Kecepatan baru = 12 m/s, sehingga Ek = ½ × 2 × 12² = 144 J. Energi kinetik sebanding dengan kuadrat kecepatan, sehingga kecepatan 2 kali membuat Ek menjadi 4 kali (36 × 4 = 144 J)."
+    },
+    {
+      "id": 11,
+      "kategori": "KIM",
+      "nomor": 1,
+      "pertanyaan": "Pentana adalah alkana dengan 5 atom karbon. Rumus molekul pentana adalah...",
+      "pilihan": {
+        "A": "C₅H₁₁",
+        "B": "C₅H₁₀",
+        "C": "C₅H₈",
+        "D": "C₅H₁₂",
+        "E": "C₅H₁₄"
+      },
+      "jawaban": "D",
+      "pembahasan": "Rumus umum alkana adalah CₙH₂ₙ₊₂. Untuk n = 5, jumlah H = 2(5) + 2 = 12, sehingga rumus pentana adalah C₅H₁₂."
+    },
+    {
+      "id": 12,
+      "kategori": "KIM",
+      "nomor": 2,
+      "pertanyaan": "Hasil pembakaran sempurna senyawa hidrokarbon adalah...",
+      "pilihan": {
+        "A": "Karbon monoksida (CO) dan uap air (H₂O)",
+        "B": "Karbon dioksida (CO₂) dan uap air (H₂O)",
+        "C": "Karbon dioksida (CO₂) dan gas hidrogen (H₂)",
+        "D": "Karbon monoksida (CO) dan gas hidrogen (H₂)",
+        "E": "Karbon (C) dan uap air (H₂O)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Pembakaran sempurna terjadi saat oksigen berlimpah dan menghasilkan CO₂ serta H₂O. Jika oksigen kurang (pembakaran tidak sempurna), dihasilkan CO atau jelaga (C)."
+    },
+    {
+      "id": 13,
+      "kategori": "KIM",
+      "nomor": 3,
+      "pertanyaan": "Pada pembakaran sempurna propana (komponen utama LPG) dengan reaksi C₃H₈ + ... O₂ → 3 CO₂ + 4 H₂O, koefisien O₂ yang tepat adalah...",
+      "pilihan": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "jawaban": "C",
+      "pembahasan": "Hitung jumlah atom O di ruas kanan: (3 × 2) + (4 × 1) = 10 atom O. Karena satu molekul O₂ mengandung 2 atom O, koefisien O₂ = 10 / 2 = 5."
+    },
+    {
+      "id": 14,
+      "kategori": "KIM",
+      "nomor": 4,
+      "pertanyaan": "Massa 22 gram propana (C₃H₈) setara dengan ... mol. (Ar C = 12; H = 1)",
+      "pilihan": {
+        "A": "4 mol",
+        "B": "1 mol",
+        "C": "2 mol",
+        "D": "0,25 mol",
+        "E": "0,5 mol"
+      },
+      "jawaban": "E",
+      "pembahasan": "Mr C₃H₈ = (3 × 12) + (8 × 1) = 44. Mol = massa / Mr = 22 / 44 = 0,5 mol."
+    },
+    {
+      "id": 15,
+      "kategori": "KIM",
+      "nomor": 5,
+      "pertanyaan": "Jumlah isomer struktur dari butana (C₄H₁₀) adalah...",
+      "pilihan": {
+        "A": "5",
+        "B": "1",
+        "C": "2",
+        "D": "4",
+        "E": "3"
+      },
+      "jawaban": "C",
+      "pembahasan": "Butana memiliki 2 isomer struktur: n-butana (rantai lurus) dan isobutana atau 2-metilpropana (rantai bercabang). Keduanya merupakan komponen LPG."
+    },
+    {
+      "id": 16,
+      "kategori": "KIM",
+      "nomor": 6,
+      "pertanyaan": "Volume 2 mol gas ideal pada keadaan standar (STP: 0°C, 1 atm) adalah...",
+      "pilihan": {
+        "A": "33,6 L",
+        "B": "22,4 L",
+        "C": "11,2 L",
+        "D": "44,8 L",
+        "E": "67,2 L"
+      },
+      "jawaban": "D",
+      "pembahasan": "Pada STP, 1 mol gas ideal bervolume 22,4 L. Volume 2 mol = 2 × 22,4 = 44,8 L."
+    },
+    {
+      "id": 17,
+      "kategori": "KIM",
+      "nomor": 7,
+      "pertanyaan": "Larutan HCl 0,001 M (asam kuat) memiliki pH sebesar...",
+      "pilihan": {
+        "A": "4",
+        "B": "2",
+        "C": "1",
+        "D": "11",
+        "E": "3"
+      },
+      "jawaban": "E",
+      "pembahasan": "HCl terionisasi sempurna sehingga [H⁺] = 0,001 M = 10⁻³ M. pH = −log [H⁺] = −log 10⁻³ = 3."
+    },
+    {
+      "id": 18,
+      "kategori": "KIM",
+      "nomor": 8,
+      "pertanyaan": "Dua senyawa pembanding yang menjadi acuan skala bilangan oktan (nilai 0 dan 100) berturut-turut adalah...",
+      "pilihan": {
+        "A": "n-heptana (0) dan isooktana (100)",
+        "B": "Etanol (0) dan metanol (100)",
+        "C": "n-oktana (0) dan isoheptana (100)",
+        "D": "Benzena (0) dan toluena (100)",
+        "E": "Metana (0) dan etana (100)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Skala bilangan oktan menggunakan n-heptana (sangat mudah berdetonasi atau knocking) sebagai 0 dan isooktana atau 2,2,4-trimetilpentana (tahan knocking) sebagai 100. RON 92 berarti bensin setara campuran 92% isooktana dan 8% n-heptana dari segi ketahanan terhadap knocking."
+    },
+    {
+      "id": 19,
+      "kategori": "KIM",
+      "nomor": 9,
+      "pertanyaan": "Bilangan oksidasi atom S dalam senyawa H₂SO₄ adalah...",
+      "pilihan": {
+        "A": "−2",
+        "B": "+2",
+        "C": "+4",
+        "D": "+6",
+        "E": "+8"
+      },
+      "jawaban": "D",
+      "pembahasan": "Jumlah bilangan oksidasi senyawa netral = 0. H = +1 (2 atom = +2), O = −2 (4 atom = −8). Maka 2 + S − 8 = 0, sehingga S = +6."
+    },
+    {
+      "id": 20,
+      "kategori": "KIM",
+      "nomor": 10,
+      "pertanyaan": "Gas hasil pembakaran tidak sempurna yang tidak berwarna, tidak berbau, dan beracun karena mengikat hemoglobin lebih kuat daripada oksigen adalah...",
+      "pilihan": {
+        "A": "Belerang dioksida (SO₂)",
+        "B": "Nitrogen dioksida (NO₂)",
+        "C": "Karbon monoksida (CO)",
+        "D": "Karbon dioksida (CO₂)",
+        "E": "Metana (CH₄)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Karbon monoksida (CO) terbentuk dari pembakaran tidak sempurna, bersifat tidak berwarna dan tidak berbau, serta mengikat hemoglobin membentuk karboksihemoglobin sehingga transpor oksigen ke tubuh terganggu. SO₂ dan NO₂ berbau, sedangkan CO₂ tidak beracun secara langsung seperti CO."
+    },
+    {
+      "id": 21,
+      "kategori": "MAT",
+      "nomor": 1,
+      "pertanyaan": "Harga suatu BBM naik dari Rp10.000 menjadi Rp12.500 per liter. Persentase kenaikan harga tersebut adalah...",
+      "pilihan": {
+        "A": "25 %",
+        "B": "12,5 %",
+        "C": "125 %",
+        "D": "20 %",
+        "E": "30 %"
+      },
+      "jawaban": "A",
+      "pembahasan": "Kenaikan = 12.500 − 10.000 = 2.500. Persentase kenaikan = 2.500 / 10.000 × 100% = 25%."
+    },
+    {
+      "id": 22,
+      "kategori": "MAT",
+      "nomor": 2,
+      "pertanyaan": "Sebuah kendaraan mengonsumsi 8 liter BBM untuk menempuh 100 km. BBM yang dibutuhkan untuk menempuh 350 km adalah ... liter.",
+      "pilihan": {
+        "A": "35 liter",
+        "B": "28 liter",
+        "C": "24 liter",
+        "D": "32 liter",
+        "E": "26 liter"
+      },
+      "jawaban": "B",
+      "pembahasan": "Perbandingan senilai: 8 L untuk 100 km, sehingga untuk 350 km dibutuhkan 8 × 3,5 = 28 liter."
+    },
+    {
+      "id": 23,
+      "kategori": "MAT",
+      "nomor": 3,
+      "pertanyaan": "Sebuah kendaraan melaju 2 jam dengan kecepatan 60 km/jam, kemudian 3 jam dengan kecepatan 80 km/jam. Kecepatan rata-rata seluruh perjalanan adalah...",
+      "pilihan": {
+        "A": "75 km/jam",
+        "B": "70 km/jam",
+        "C": "65 km/jam",
+        "D": "72 km/jam",
+        "E": "68 km/jam"
+      },
+      "jawaban": "D",
+      "pembahasan": "Jarak total = (2 × 60) + (3 × 80) = 120 + 240 = 360 km. Waktu total = 5 jam. Kecepatan rata-rata = 360 / 5 = 72 km/jam. Bukan rata-rata sederhana (60 + 80)/2 = 70, karena durasi tiap ruas berbeda."
+    },
+    {
+      "id": 24,
+      "kategori": "MAT",
+      "nomor": 4,
+      "pertanyaan": "Jumlah akar-akar persamaan kuadrat x² − 5x + 6 = 0 adalah...",
+      "pilihan": {
+        "A": "-5",
+        "B": "5",
+        "C": "6",
+        "D": "1",
+        "E": "-6"
+      },
+      "jawaban": "B",
+      "pembahasan": "Untuk persamaan ax² + bx + c = 0, jumlah akar = −b/a = −(−5)/1 = 5. Dengan pemfaktoran: (x − 2)(x − 3) = 0, akar 2 dan 3, jumlahnya 5."
+    },
+    {
+      "id": 25,
+      "kategori": "MAT",
+      "nomor": 5,
+      "pertanyaan": "Nilai dari ²log 8 + ²log 4 adalah...",
+      "pilihan": {
+        "A": "5",
+        "B": "3",
+        "C": "4",
+        "D": "6",
+        "E": "12"
+      },
+      "jawaban": "A",
+      "pembahasan": "²log 8 = 3 karena 2³ = 8, dan ²log 4 = 2 karena 2² = 4. Jumlahnya = 3 + 2 = 5. Cara lain: ²log (8 × 4) = ²log 32 = 5."
+    },
+    {
+      "id": 26,
+      "kategori": "MAT",
+      "nomor": 6,
+      "pertanyaan": "Rata-rata dari 4 data adalah 7. Setelah ditambah satu data baru, rata-ratanya menjadi 8. Nilai data baru tersebut adalah...",
+      "pilihan": {
+        "A": "10",
+        "B": "8",
+        "C": "15",
+        "D": "12",
+        "E": "11"
+      },
+      "jawaban": "D",
+      "pembahasan": "Jumlah 4 data awal = 4 × 7 = 28. Jumlah 5 data = 5 × 8 = 40. Data baru = 40 − 28 = 12."
+    },
+    {
+      "id": 27,
+      "kategori": "MAT",
+      "nomor": 7,
+      "pertanyaan": "Dua buah dadu dilempar bersamaan. Peluang munculnya jumlah mata dadu 8 adalah...",
+      "pilihan": {
+        "A": "1/12",
+        "B": "1/6",
+        "C": "7/36",
+        "D": "1/9",
+        "E": "5/36"
+      },
+      "jawaban": "E",
+      "pembahasan": "Total kemungkinan = 6 × 6 = 36. Pasangan berjumlah 8: (2,6), (3,5), (4,4), (5,3), (6,2) = 5 pasangan. Peluang = 5/36."
+    },
+    {
+      "id": 28,
+      "kategori": "MAT",
+      "nomor": 8,
+      "pertanyaan": "Sebuah tangki berbentuk tabung memiliki diameter 14 m dan tinggi 10 m. Dengan π = 22/7, volume tangki adalah...",
+      "pilihan": {
+        "A": "770 m³",
+        "B": "6.160 m³",
+        "C": "1.540 m³",
+        "D": "440 m³",
+        "E": "3.080 m³"
+      },
+      "jawaban": "C",
+      "pembahasan": "Jari-jari = 14/2 = 7 m. Volume = π × r² × t = 22/7 × 7 × 7 × 10 = 1.540 m³. Kesalahan umum adalah memakai diameter sebagai jari-jari (hasilnya 6.160 m³)."
+    },
+    {
+      "id": 29,
+      "kategori": "MAT",
+      "nomor": 9,
+      "pertanyaan": "Deret aritmetika memiliki suku pertama 2 dan beda 3. Jumlah 10 suku pertama deret tersebut adalah...",
+      "pilihan": {
+        "A": "145",
+        "B": "310",
+        "C": "155",
+        "D": "290",
+        "E": "150"
+      },
+      "jawaban": "C",
+      "pembahasan": "Sₙ = n/2 × (2a + (n − 1)b) = 10/2 × (4 + 27) = 5 × 31 = 155."
+    },
+    {
+      "id": 30,
+      "kategori": "MAT",
+      "nomor": 10,
+      "pertanyaan": "Diketahui 2x + y = 11 dan x − y = 1. Nilai x · y adalah...",
+      "pilihan": {
+        "A": "24",
+        "B": "10",
+        "C": "7",
+        "D": "14",
+        "E": "12"
+      },
+      "jawaban": "E",
+      "pembahasan": "Jumlahkan kedua persamaan: 3x = 12, sehingga x = 4. Substitusi ke x − y = 1 menghasilkan y = 3. Maka x · y = 4 × 3 = 12."
+    }
+  ]
+}
